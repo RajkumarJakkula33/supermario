@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: mario-service
   namespace: super-mario
-
 spec:
   type: LoadBalancer
   selector:
