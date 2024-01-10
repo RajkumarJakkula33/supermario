@@ -1,3 +1,5 @@
+#provider.tf
+
 terraform {
   required_providers {
     aws = {
@@ -9,5 +11,5 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region = "ap-south-1"
+  region = "us-east-1"  #change your region
 }
