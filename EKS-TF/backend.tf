@@ -4,3 +4,4 @@ terraform {
     key    = "backend/EKS.tfstate"
     region = "us-east-1"
 }
+}
