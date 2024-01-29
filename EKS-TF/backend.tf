@@ -3,5 +3,5 @@ terraform {
     bucket = "tfstatefile-eks-mario"
     key    = "backend/EKS.tfstate"
     region = "us-east-1"
-}
+  }
 }
