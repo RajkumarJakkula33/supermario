@@ -2,7 +2,6 @@ resource "aws_eks_cluster" "eks" {
   name     = "Mario-eks"
   role_arn = aws_iam_role.master.arn
 
-
   vpc_config {
     subnet_ids = [aws_subnet.public-1.id, aws_subnet.public-2.id]
   }
@@ -13,5 +12,4 @@ resource "aws_eks_cluster" "eks" {
     aws_iam_role_policy_attachment.AmazonEKSVPCResourceController,
     aws_iam_role_policy_attachment.AmazonEKSVPCResourceController,
   ]
-
 }
